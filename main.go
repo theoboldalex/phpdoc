@@ -47,6 +47,7 @@ func getFunctionGroup(funcType FunctionGroup) []string {
 				for _, t := range token.Attr {
 					if t.Val == "chunklist chunklist_reference" {
 						// we have found the functions reference list
+						fmt.Printf("%v\n", token.String())
 					}
 				}
 			}
