@@ -14,7 +14,7 @@ import (
 const (
 	BASE_URI                       = "https://www.php.net/manual/en"
 	STRING_FUNCTIONS FunctionGroup = "strings"
-	ARRAY_FUNCTIONS  FunctionGroup = "arrays"
+	ARRAY_FUNCTIONS  FunctionGroup = "array"
 )
 
 type FunctionGroup string
